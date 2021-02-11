@@ -21,7 +21,7 @@ main::before
 footer,header,main {
     background-color:#f3faff;
     border:2px solid #7fc1ff;
-    width:1446px
+    width:446px
 }
 article,aside,nav,section {
     background-color:#f9f7ff;
