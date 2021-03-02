@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        .target {
+            background: red;
+        }
+        .item {
+            font-size:50px;
+        }
+        .first{
+            color: #ff994f;
+        }
+        .second{
+            text-decoration: underline;
+        }
+        [name=four]{
+            background: #f3faff;
+        }
+        [name=one], [name=two], [name=three], .second {
+            color: green;
+        }
+    </style>
+</head>
+<body>
+    <ul class="target">
+        <li class="first item">1</li>
+        <li class="second item">2</li>
+        <li class="third item">3</li>
+        <li class="forth item">4</li>
+        <li class="fifth item">5</li>
+    </ul>
+    <ul class="target">
+        <li name="one">1</li>
+        <li name="two">2</li>
+        <li name="three">3</li>
+        <li name="four">4</li>
+        <li name="five">5</li>
+    </ul>
+</body>
+</html>
